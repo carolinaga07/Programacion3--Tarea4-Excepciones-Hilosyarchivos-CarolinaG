@@ -63,7 +63,7 @@ public class CalculadoraSegura {
             System.out.println("Error: Ingrese solo numeros");
         }
         finally{
-            /System.out.println("Proceso finalizado.");
+            System.out.println("Proceso finalizado.");
         }
     }
     
