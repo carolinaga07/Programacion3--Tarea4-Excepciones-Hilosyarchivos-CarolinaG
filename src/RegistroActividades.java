@@ -21,7 +21,7 @@ public class RegistroActividades {
         }
     }
 
-    
+
 
     private void Mostrar(){
         try {
@@ -47,14 +47,17 @@ public class RegistroActividades {
         Scanner sc = new Scanner(System.in);
         int opcion;
 
-        do {
-            System.out.println("\n--- Registro de Actividades ---");
+        do { 
+            System.out.println("=========================");
+            System.out.println(" REGISTRO DE ACTIVIDADES ");
+            System.out.println("=========================");
             System.out.println("1. Agregar actividad");
             System.out.println("2. Mostrar actividades");
             System.out.println("3. Salir");
-            System.out.print("Elija: ");
+            System.out.println("=========================");
+            System.out.print("  Elija una opcion: ");
             opcion = sc.nextInt();
-            sc.nextLine(); // limpia el enter
+            sc.nextLine(); 
 
             if (opcion == 1) {
                 System.out.print("Ingrese una actividad: ");
