@@ -1,5 +1,5 @@
 public class Corredor extends Thread   {
-    boolean hayGanador = false;
+    static boolean hayGanador = false;
 
     public Corredor(String name) {
         super(name);
