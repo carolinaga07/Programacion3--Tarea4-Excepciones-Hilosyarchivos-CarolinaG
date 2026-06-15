@@ -1,2 +1,2 @@
 # Programacion3--Tarea4-Excepciones-Hilosyarchivos-CarolinaG
-Aplicar los conocimientos adquiridos sobre programación concurrente, manejo de excepciones y manejo de archivos mediante la implementación de programas prácticos en Java.
+Programa en Java que integra cinco ejercicios prácticos sobre programación concurrente, manejo de excepciones y manejo de archivos, accesibles desde un menú principal.
